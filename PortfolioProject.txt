@@ -1,0 +1,16 @@
+in this project i will showcase my skills which include working on data using excel, sql, and power BI.
+i will start with very raw data and then make good looking reports using power BI
+the data i will be using is called "Behavioral Risk Factor Data: Tobacco Use (2010 And Prior)" from data.gov
+basically, this data include information about surveys from 1996 to 2010. 
+firstly, lets open the table in excel and try to understand it.
+Firstly, we can see that there are columns and rows which we dont need. also, this king of table will be useless for 
+power BI as it has every king of information in it. we are going to split this table into 3 or more.
+lets transfer the data into microsoft SQL to then start working on it.
+i will put explanations as comments in sql queries. go to PortfolioProjectSQL in order to see it.
+in microsoft SQL i transformed 1 useless table into 5 smaller useable tables.
+Now, i will make little changes using excel.
+In excel i added new columns to 4 tables named results and percentage. in results i calculated the percentage on samples to get number of individuals.
+ in percentage i divided data_value by 100 to give it type type of percentage
+Now, lets transfer this tables into power BI.
+In power BI i transformed data deleting data_value column and replacing it with percentage. 
+my first report is called tendency of smoking in US.
